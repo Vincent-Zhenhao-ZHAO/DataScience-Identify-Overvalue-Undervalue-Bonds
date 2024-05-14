@@ -6,6 +6,9 @@ This project involves in-depth analysis and visualization of bond market data, f
 ## Project Overview
 Mispricing of fixed-income assets, particularly bonds, can challenge investors seeking to determine accurate valuations. This study proposed two models for identifying potentially overvalued and undervalued bonds by employing the metrics of yield to maturity (YTM) and option-adjusted spread (OAS). The study used duration and DV01 (dollar value of an 01) to corroborate these findings. The research also explored how non-financial institutions can influence bond mispricing, especially in the oil and gas sector. While limited historical data prevented in-depth precision evaluation of the result, this study still provided a valuable framework for further exploration.
 
+## Project Background
+The project was based on the Data Solving Challenge, organised by pre-S&P CTO Yaacov Mutnikas. The dataset is about the iBoxx USD liquid investment with an investment-grade dataset, which offers an end-of-trading day (January 25, 2016) capture of investment-grade bonds in US dollars, with ratings assigned by S&P. This is an open project, and we need to do a huge EDA process to find the valuable points to work on. Thanks to the guidance of Yaacov Mutnikas, I can propose a novel way to identify the overvalued and undervalued bonds. This project took me about 2 weeks to finish. 
+
 ## Features
 
 ### Data Loading and Preprocessing
