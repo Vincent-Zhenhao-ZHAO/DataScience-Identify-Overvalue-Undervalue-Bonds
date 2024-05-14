@@ -9,6 +9,14 @@ Mispricing of fixed-income assets, particularly bonds, can challenge investors s
 ## Project Background
 The project was based on the Data Solving Challenge, organised by pre-S&P CTO Yaacov Mutnikas. The dataset is about the iBoxx USD liquid investment with an investment-grade dataset, which offers an end-of-trading day (January 25, 2016) capture of investment-grade bonds in US dollars, with ratings assigned by S&P. This is an open project, and we need to do a huge EDA process to find the valuable points to work on. Thanks to the guidance of Yaacov Mutnikas, I can propose a novel way to identify the overvalued and undervalued bonds. This project took me about 2 weeks to finish. 
 
+## Limitation
+### Research Limitation
+- The analysis lacks a strict precision test to verify the overvaluation or undervaluation of bonds, primarily due to a limited historical dataset.
+- The evaluation rests upon assumptions regarding overvalued and undervalued bonds, which may not fully describe the bonds' characteristics.
+- The dataset is derived from a single-day snapshot, which prevents an in-depth exploration of variables such as spot price growth or YTM fluctuations.
+### Code Limitation
+Due to the time constraint, I didn't have time to explain the code nicely in Markdown, and it would have looked very confusing to you. You may need to follow the structure of the code that loads the data, clean the data, EDA process, network process, and undervalue & overvalue identification. In the next step, I will clean up the code and make it accessible and readable.
+
 ## Features
 
 ### Data Loading and Preprocessing
